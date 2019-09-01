@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+    width: 100%;
+}
+.card-img-caption .card-img-top {
+    z-index: 0;
+    margin-top: -14%;
+    max-height: 60%;
+}
+    
+.card-img-caption .card-text {
+    text-align: center;
+    width: 100%;
+    margin-top: 44%;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 33%;
+    position: absolute;
+    z-index: 1;
+    color: #EEE9E9;
+    font-size: xx-large;
+    font-family: alfa-slab-one;
+    font-style: normal;
+    font-weight: 400;
+}
+.card-img-caption .card-text a {
+    text-decoration: none;
+    color: #F4F1F1;
+    font-family: acme;
+    font-style: normal;
+    font-weight: 400;
+}
+.body-container {
+    margin-top: -1%;
+}
+.body-container .image-container {
+    float: left;
+    width: 40%;
+    margin-top: 1.5%;
+}
+.body-container .intro {
+    float: right;
+    width: 55%;
+    font-size: xx-large;
+}
+h2      {
+    color: #0A0606;
+}

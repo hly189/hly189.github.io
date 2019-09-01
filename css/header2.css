@@ -1,0 +1,55 @@
+@charset "UTF-8";
+.wrapper {
+    height: 100%;
+}
+.header-container {
+    height: 40%;
+    background-image: url("../../Hoa - project/header-pattern-background.png");
+    width: 100%;
+    padding-top: 2%;
+}
+.navigation-container nav ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+nav ul{
+    padding-top: 1%;
+	pading-bottom:1%; 
+    background-color: #FFFFFF;
+}
+nav ul li{
+    padding-right: 2%;
+    margin-left: 3%;
+    padding-left: 0%;
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.4em;
+    font-family: acme;
+    font-style: normal;
+    text-align: center;
+}
+h1 {
+    font-family: acme;
+    font-style: normal;
+    font-weight: 400;
+    color: #FAF5F5;
+    font-size: 200%;
+}
+.body-container {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 1%;
+}
+
+.body-container .image-container {
+    float: left;
+    width: 40%;
+}
+.body-container .intro {
+    float: right;
+    width: 55%;
+}
+h2      {
+    color: #0A0606;
+}
